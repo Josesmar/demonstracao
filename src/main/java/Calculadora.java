@@ -1,22 +1,26 @@
 public class Calculadora {
 
-    private Double primeiroValor;
-    private Double segundoValor;
-    private Double resultado;
+    private double primeiroValor;
+    private double segundoValor;
+    private double resultado;
 
-    public Double soma(Double primeiroValor, Double segundoValor){
+    public double soma(double primeiroValor, double segundoValor){
         return primeiroValor + segundoValor;
     }
 
-    public Double divide(Double primeiroValor, Double segundoValor){
+    public double divide(double primeiroValor, double segundoValor){
         return primeiroValor / segundoValor;
     }
 
-    public Double multiplica(Double primeiroValor, Double segundoValor){
+    public double multiplica(double primeiroValor, double segundoValor){
         return primeiroValor * segundoValor;
     }
 
-    public Double subtrai(Double primeiroValor, Double segundoValor){
+    public double subtrai(double primeiroValor, double segundoValor){
         return primeiroValor - segundoValor;
+    }
+
+    public double porcentagem(double valor, double porcentagem){
+        return (valor * porcentagem) / 100;
     }
 }
