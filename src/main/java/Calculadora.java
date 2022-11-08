@@ -1,9 +1,5 @@
 public class Calculadora {
 
-    private double primeiroValor;
-    private double segundoValor;
-    private double resultado;
-
     public double soma(double primeiroValor, double segundoValor){
         return primeiroValor + segundoValor;
     }
